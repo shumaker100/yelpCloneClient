@@ -24,7 +24,6 @@ const AddRestaurant = () => {
     } catch (err) {
       console.log(err);
     }
-    console.log(response);
   };
   return (
     <div className="mb-4">
