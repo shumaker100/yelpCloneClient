@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "http://localhost:4000/api/v1/restaurants/",
+  baseURL: "https://serene-temple-58307.herokuapp.com/",
 });
