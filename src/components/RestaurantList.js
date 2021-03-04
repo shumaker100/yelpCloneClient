@@ -16,11 +16,6 @@ const RestaurantList = (props) => {
       } catch (err) {}
     };
 
-    fetch("url")
-      .then((res) => res.json())
-      .then(data)
-      .catch((err) => console.error(err));
-
     fetchData();
   }, []);
 
